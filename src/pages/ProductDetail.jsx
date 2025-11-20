@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FaCarSide, FaQuestion } from 'react-icons/fa'
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
-import { addTocart } from '../redux/cartslice'
+import { addTocart } from '../redux/cartSlice'
 
 
 const ProductDetail = () => {
