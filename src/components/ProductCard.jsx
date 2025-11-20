@@ -1,6 +1,6 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-import { addTocart } from "../redux/cartslice";
+import { addTocart } from "../redux/cartSlice";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
