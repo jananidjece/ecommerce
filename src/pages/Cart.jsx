@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import emptycart from '../assets/images/emptycart-cart.png'
 import { FaTrashAlt } from 'react-icons/fa'
 import Modal from '../components/Modal'
-import { decreaceQuantity, increaceQuantity, removeFromCart } from '../redux/cartslice'
+import { decreaceQuantity, increaceQuantity, removeFromCart } from '../redux/cartSlice'
 import { useNavigate } from 'react-router-dom'
 
 
