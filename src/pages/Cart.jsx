@@ -18,7 +18,7 @@ const navigate = useNavigate()
 // console.log(cart)
 
   return (
-    <div className='bg-pink-200'>
+    <div>
     <div className='container mx-auto py-8 min-h-96 px-4 md:px-16 lg:px-24' >
 {cart.products.length > 0 ?(
   <div>
